@@ -1,0 +1,392 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%------------------------------------------------------------------------------%
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%------------------------------------------------------------------------------%
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{amsmath,amssymb,amsthm}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.9]{geometry} % Reduce document margins
+\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%------------------------------------------------------------------------------%
+%	NAME AND CONTACT INFORMATION SECTION
+%------------------------------------------------------------------------------%
+
+\firstname{Hong} % Your first name
+\familyname{Nguyen} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Mohrenstraße 39}{10117 Berlin, Germany}
+\mobile{+49 17 673 973 907}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{hong.nguyen@wias-berlin.de}
+\homepage{https://www.wias-berlin.de/~nguyen/}{www.wias-berlin.de\texttt{/}$\sim$nguyen} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{Full name: \foreignlanguage{vietnamese}{Nguyễn Quản Bá Hồng}\\
+Office: Hausvogteiplatz 5--7, room 0415\\
+\url{nguyenquanbahong@gmail.com}\\
+\href{https://nqbh.github.io/}{GitHub\texttt{/}nqbh.github.io}\\ \href{https://sites.google.com/view/nguyenquanbahong/home}{Google Site\texttt{/}nguyenquanbahong}\\
+\href{https://scholar.google.com/citations?user=22hHvB8AAAAJ}{Google Scholar\texttt{/}Hong Quan Ba Nguyen}\\
+\href{https://www.researchgate.net/profile/Hong_Quan_Ba_Nguyen}{ResearchGate\texttt{/}Hong Quan Ba Nguyen}}
+\photo[120pt][0.1pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\quote{\small ``The essence of mathematics lies in its freedom.'' - Georg Cantor \newline ``It is true that a mathematician who is not somewhat of a poet, will never be a perfect mathematician.'' - Karl Weierstrass}
+
+%------------------------------------------------------------------------------%
+
+\begin{document}
+
+%------------------------------------------------------------------------------%
+%	COVER LETTER
+%------------------------------------------------------------------------------%
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
+
+%------------------------------------------------------------------------------%
+%	CURRICULUM VITAE
+%------------------------------------------------------------------------------%
+
+\makecvtitle % Print the CV title
+
+%------------------------------------------------------------------------------%
+%       Education
+%------------------------------------------------------------------------------%
+
+\section{Education}
+
+\cventry{2020--2021}{\href{http://wias-berlin.de/jobs/job.jsp?lang=0&year=19&number=07}{PhD student} enrolled in \href{https://www.hu-berlin.de/en}{Humboldt-Universit\"at zu Berlin}}{\href{http://wias-berlin.de/}{Weierstrass Institute for Applied Analysis {\small\&} Stochastics} \textsc{(WIAS)}}{Berlin, Germany}{}{In the Research Group \href{http://wias-berlin.de/research/rgs/fg8/}{Nonsmooth Variational Problems {\small\&} Operator Equations}, Head: Prof. \href{http://wias-berlin.de/people/hintermueller/}{Michael Hinterm\"uller}, within the European Innovative Training Network \href{https://www.romsoc.eu/}{Reduced Order Modelling, Simulation {\small\&} Optimization of Coupled Systems} (ROMSOC), in the Project 11 \href{https://www.romsoc.eu/optimal-shape-design-of-air-ducts-in-combustion-engines/}{Optimal Shape Design of Air Ducts in Combustion Engines}.} 
+ 
+\cventry{2018--2019}{Master de Sciences, Technologie, Sant\'e, Mathematiques et Applications}{\href{https://www.univ-rennes1.fr/}{Universit\'e de Rennes 1}}{Rennes, France}{\textit{assez bien}}{Master 2 in Fundamental Mathematics {\small\&} Applications within ENS Rennes program (skipped Master 1).}  % Arguments not required can be left empty
+
+\cventry{2014--2018}{Bachelor of Science in Mathematics}{\href{https://www.hcmus.edu.vn/}{University of Science} \textsc{(HCMUS)}, \href{https://vnuhcm.edu.vn/}{Viet Nam National University, Ho Chi Minh City} \textsc{(VNU HCM)}}{Vietnam}{\textit{very good}}{Specialized in Mathematical Analysis {\small\&} Numerical Analysis.}
+
+\cventry{2011--2014}{Elementary Mathematics}{\href{https://thptchuyenbentre.edu.vn/}{Ben Tre High School for Gifted Students} \textsc{(CBT)}}{Vietnam}{\textit{very good}}{}
+
+%------------------------------------------------------------------------------%
+%       Master Thesis
+%------------------------------------------------------------------------------%
+
+\section{Master Thesis}
+
+\cvitem{Title}{\emph{Staggered {\small\&} well-balanced discretization of shallow-water equations}. [\href{https://github.com/NQBH/miscellaneous/blob/master/Master_of_Science/Master_Thesis/NQBH_Master_Thesis.pdf}{pdf}][\href{https://github.com/NQBH/miscellaneous/blob/master/Master_of_Science/Master_Thesis/slide/NQBH_Master_Thesis_slide.pdf}{slide}]}
+
+\cvitem{Supervisor}{Prof. \href{http://seguin.perso.math.cnrs.fr/}{Nicolas Seguin}}
+
+\cvitem{Description}{This thesis investigates some staggered well-balanced finite volume schemes for the shallow water equations. A new staggered scheme, called ``offset equilibrium'', is developed to conquer the \textit{dry-wet transition} issues where almost all the traditional finite volume schemes collapse. Higher-order extensions for this staggered scheme are also mentioned.}
+
+%------------------------------------------------------------------------------%
+%       Master Courses
+%------------------------------------------------------------------------------%
+
+\section{Master Courses}
+\cvitem{2018--2019}{\textbf{Courses of \href{https://math.univ-rennes1.fr/master-2-fundamental-mathematics}{Master 2 Program in Fundamental Mathematics with Applications}, 2018--2019:}}
+
+\cvitem{Sep 2018}{Prof. \href{https://perso.univ-rennes1.fr/nicoletta.tchou/}{Nicoletta Tchou}. \textit{Sobolev spaces {\small\&} elliptic equation}.}
+
+\cvitem{Sep 2018}{Prof. \href{https://perso.univ-rennes1.fr/florian.mehats/}{Florian M\'ehats}. \textit{Hyperbolic equations}.}
+
+\cvitem{Nov 2018}{Prof. \href{http://seguin.perso.math.cnrs.fr/}{Nicolas Seguin} {\small\&} \href{https://perso.univ-rennes1.fr/eric.darrigrand-lacarrieu/}{Eric Darrigrand}. \textit{Finite Element Method} (FEM).}
+
+\cvitem{Nov 2018}{Prof. \href{http://seguin.perso.math.cnrs.fr/}{Nicolas Seguin}. \textit{Numerics of transport}.}
+
+\cvitem{Nov 2018}{Prof. \href{https://perso.univ-rennes1.fr/mohammed.lemou/}{Mohammed Lemou}. \textit{Numerical methods for kinetic transport equation}s.}
+
+\cvitem{Dec 2018}{Prof. \href{https://perso.univ-rennes1.fr/luis-miguel.rodrigues/}{Luis Miguel Rodrigues}. \textit{Master 2 Seminar}\newline $\triangleright$ Hong Nguyen. ``On the smallest constant for a Gagliardo-Nirenberg functional inequality''. [\href{https://github.com/NQBH/miscellaneous/blob/master/Master_of_Science/Master_Seminar/NQBH_Master_seminar.pdf}{pdf}][\href{https://github.com/NQBH/miscellaneous/blob/master/Master_of_Science/Master_Seminar/NQBH_Master_seminar_slide.pdf}{slide}]}
+
+\cvitem{Mar 2019}{\href{https://perso.univ-rennes1.fr/vincent.duchene/}{Vincent Duch\^{e}ne}. \textit{Modeling {\small\&} mathematical analysis of shallow free-surface fluid flows}.}
+
+\cvitem{Mar 2019}{Prof. \href{http://www.lmba-math.fr/users/58/215/quincampoix.html}{Marc Quincampoix}. \textit{Optimal control {\small\&} Hamilton-Jacobi equations}.}
+
+%------------------------------------------------------------------------------%
+%       Research Interests
+%------------------------------------------------------------------------------%
+
+\section{Research Interests}
+
+\cvlistitem{\textbf{Mathematical Analysis} $\triangleright$ Partial Differential Equations (PDEs): Porous Medium equations (PME), Navier--Stokes equations (NSEs), Differential Geometry (DG).}
+
+\cvlistitem{\textbf{Numerical Analysis} $\triangleright$  Finite Difference Methods (FDMs), Finite Element Methods (FEMs), Finite Volume Methods (FVMs).}
+
+\cvlistitem{\textbf{Mathematical Optimization} $\triangleright$ Optimal Control, Shape Optimization, Topology Optimization.}
+
+\cvlistitem{\textbf{Fluid Mechanics} $\triangleright$ Fluid Dynamics, Computational Fluid Dynamics (CFDs).}
+
+\cvlistitem{\textbf{Turbulence} $\triangleright$ Turbulence modeling.}
+
+%------------------------------------------------------------------------------%
+%       Experience
+%------------------------------------------------------------------------------%
+
+\section{Experience}
+
+\subsection{Vocational}
+
+\cventry{Jan 2022--Dec 2024}{Self-employed}{}{Ben Tre city, Vietnam}{}{Educator \& Writer}
+
+\cventry{Apr 2021--Dec 2021}{Software Development Engineer (SDE)}{\href{https://mathtec.at/}{Math${}_+$Tec GmbH}}{Vienna, Austria}{}{Secondments for technical {\small\&} scientific training at the industrial partner within ROMSOC project.}
+
+\cventry{Mar--Jun 2019}{Master Internship}{\textsc{\href{https://irmar.univ-rennes1.fr/}{Irmar}}}{Rennes, Bretagne}{France}{}
+
+\subsection{Miscellaneous}
+
+\cventry{2015--2017}{Olympiad Trainer}{Ben Tre High School for Gifted Students \textsc{(CBT)}}{Vietnam}{}{Trainer of the selected team of CBT for Vietnamese Mathematical Olympiads (VMOs).}
+
+%------------------------------------------------------------------------------%
+%       Publications
+%------------------------------------------------------------------------------%
+
+\section{Publications}
+
+\cvitem{[Pub1]}{Nguyen Anh Dao, Jes\'us Ildefonso D\'iaz, Quan Ba Hong Nguyen. \textit{``Pointwise Gradient Estimates in Multi-dimensional Slow Diffusion Equations with a Singular Quenching Term''}. \textit{Adv. Nonlinear Stud.} (2020).\newline\textsc{doi} \url{https://doi.org/10.1515/ans-2020-2076}. [\href{https://github.com/NQBH/miscellaneous/blob/master/math/publication/Dao_Diaz_Nguyen2020.pdf}{pdf}]}
+
+%------------------------------------------------------------------------------%
+%       Preprints
+%------------------------------------------------------------------------------%
+
+\section{Preprints}
+
+\cvitem{[PrPr2]}{Nguyen Quan Ba Hong. \textit{``Continuous Adjoint Approaches for Shape Optimization for Stationary Incompresssible Stokes, Oseen, and Navier--Stokes Equations with Constant Density and Constant Viscosity: A Survey, General Formal Derivations, and Partial Rigorous Analysis''}. [arXiv]}
+
+%------------------------------------------------------------------------------%
+%       Writings
+%------------------------------------------------------------------------------%
+
+\section{Books \& Other Writings}
+
+\cvitem{[Bk1]}{\foreignlanguage{vietnamese}{Nguyễn Quản Bá Hồng, Nguyễn Quản Trung Nhân. \href{https://github.com/NQBH/elementary_STEM_beyond/blob/main/learning_teaching_research/NQBH_on_learning_teaching_research.pdf}{\textit{Some Thoughts on Learning, Teaching, \& Research: A Short Novel -- Vài Suy Nghĩ Về Việc Học, Việc Dạy, \& Nghề Nghiên Cứu: 1 Tiểu Thuyết Ngắn}}}.}
+
+%------------------------------------------------------------------------------%
+%       Courses
+%------------------------------------------------------------------------------%
+
+\section{Courses}
+
+\cvitem{Oct 12--23, 2020}{Thematic Einstein Semester (TES): \href{https://mathplus.de/topic-development-lab/tes-winter-2020-21/}{Energy-based mathematical methods for reactive multiphase flows}.\newline $\triangleright$ TES Student Compact Course: \href{https://mathplus.de/topic-development-lab/tes-winter-2020-21/student-compact-course/}{\textit{Variational Methods for Fluids {\small\&} Solids}}.}
+
+\cvitem{Apr--Jun 2020}{Dr. \href{https://ifm.mathematik.uni-wuerzburg.de/~schmidt/}{Stephan Schmidt}. \textit{Computational Geometry {\small\&} Shape Optimization}. Master course, Humboldt Universit\"at zu Berlin, 2020.}
+
+%------------------------------------------------------------------------------%
+%       Seminars
+%------------------------------------------------------------------------------%
+
+\section{Seminars}
+
+\cvitem{Mar 2020--now}{\href{https://www.wias-berlin.de/research/rgs/fg1/langenb/seminar.jsp}{Berliner Oberseminar Nichtlineare partielle Differentialgleichungen (Langenbach-Seminar)}, Research Group 1: \textit{Partial Differential Equations}, WIAS Berlin, Germany.}
+\cvitem{Mar 2020--now}{\href{http://www.wias-berlin.de/seminars/material/}{Material Modeling Seminar}, WIAS Berlin, Germany.}
+
+\cvitem{Mar 2020--now}{\href{http://www.wias-berlin.de/research/rgs/fg3/numsem/seminars.jsp}{Numerical Mathematics Seminars}, Research Group 3: \textit{Numerical Mathematics {\small\&} Scientific Computing}, WIAS Berlin, Germany.}
+
+\cvitem{Mar 2020--now}{\href{https://www.wias-berlin.de/research/rgs/fg6/fgsem.jsp}{Modern Methods in Applied Stochastics {\small\&} Nonparametric Statistics}, Research Group 6: \textit{Stochastic Algorithms {\small\&} Nonparametric Statistics}, WIAS Berlin, Germany.}
+
+\cvitem{Mar 2020--now}{\href{http://wias-berlin.de/research/rgs/fg8/seminar/}{Joint Research Seminar on Mathematical Optimization}, Research Group 8: \textit{Non-smooth Variational Problems {\small\&} Operator Equations}, WIAS Berlin, Germany.}
+
+\cvitem{Mar 2021--now}{\href{https://www.wias-berlin.de/research/rgs/fg8/Seminar_Opt_Con_Inv_Prob/}{Optimization, Control {\small\&} Inverse Problems}, Research Group 8: \textit{Non-smooth Variational Problems {\small\&} Operator Equations}, WIAS Berlin, Germany.}
+
+\cvitem{Mar 2020--now}{\href{https://mathplus.de/events/}{Berlin Mathematics Research Center MATH${}^+$ Events}.}
+
+\cvitem{Nov 2020--Apr 2021}{ROMSOC Scientific ESRs Seminar.}
+
+%------------------------------------------------------------------------------%
+%       Schools
+%------------------------------------------------------------------------------%
+
+\section{Schools}
+
+\cvitem{Jul 26--30, 2021}{\href{https://www.applied.math.tugraz.at/tagungen/samm21/index.php}{Summer Schools on Applied Mathematics and Mechanics 2021} (SAMM 2021): \textit{Shape {\small\&} Topology Optimization}. \href{https://www.gamm-juniors.de/?page_id=543}{GAMM Juniors}, Graz University of Technology (Technische Universit\"at Graz), Graz, Austria.}
+
+\cvitem{Jul 1--2, 2021}{\href{https://www.maths.dur.ac.uk/~dma0dw/dda21.html}{Durham Days of Analysis {\small\&} PDE Summer School}. Durham University, United Kingdom.}
+
+\cvitem{Sep 7--10, 2020}{\href{https://morss2020.epfl.ch/}{Model Order Reduction Summer School 2020} (MORSS2020). \'Ecole polytechnique f\'ed\'erale de Lausanne (EPFL), Lausanne, Switzerland.}
+
+\cvitem{Jul 20--24, 2020}{\href{https://conferences.leeds.ac.uk/lesgi/}{162nd European Study Group with Industry}. University of Leeds, United Kingdom.}
+
+%------------------------------------------------------------------------------%
+%       Workshops
+%------------------------------------------------------------------------------%
+
+\section{Workshops}
+
+\cvitem{Apr 29, 2021}{\href{http://www.wias-berlin.de/workshops/FUHRI2021/}{FUHRI2021}: \underline{F}inite vol\underline{U}me met\underline{H}ods for \underline{R}eal-world appl\underline{I}cations, WIAS Berlin, Germany.}
+
+\cvitem{Sep 28--29, 2020}{ROMSOC Internal Workshop.}
+
+\cvitem{Sep 15, 2020}{ROMSOC Ethical Monitoring - 3rd Workshop on Ethics.}
+
+%------------------------------------------------------------------------------%
+%       Conferences
+%------------------------------------------------------------------------------%
+
+\section{Conferences}
+
+\cvitem{Mar 24--25, 2021}{Annual Meeting of the Second Phase of the DFG Priority Programme 1962 (\href{https://spp1962.wias-berlin.de/}{SPP1962}): \textit{Non-smooth {\small\&} Complementarity-based Distributed Parameter Systems: Simulation {\small\&} Hierarchical Optimization}. Deutsche Forschungsgemeinschaft (DFG) $+$ WIAS, Germany.}
+
+\cvitem{Sep 14--17, 2020}{\href{https://www.mathematik.de/}{Deutsche Mathematiker-Vereinigung} (German Mathematical Society) Annual Meeting 2020 (\href{https://www.tu-chemnitz.de/mathematik/dmv2020/index.php}{DMV2020}), Technische Universit\"at Chemnitz, Chemnitz, Germany.}
+
+%------------------------------------------------------------------------------%
+%       Talks
+%------------------------------------------------------------------------------%
+
+\section{Talks}
+
+\cvitem{Apr 12, 2021}{\foreignlanguage{vietnamese}{Hồng Quản Bá Nguyễn} (WIAS Berlin). ``\textit{Optimal Shape Design of Air Ducts in Combustion Engines: Design a General Shape Optimization Framework}''. ROMSOC ESR Seminar. [\href{https://github.com/NQBH/miscellaneous/blob/master/ROMSOC/talk/ROMSOC_ESR_seminar/abstract/NQBH_abstract.pdf}{abstract}]}
+
+\cvitem{Sep 7, 2020}{Hong Nguyen (WIAS Berlin). ``\textit{A shape optimization problem for stationary Navier-Stokes flows in three-dimensional tubes}''. \href{https://morss2020.epfl.ch/}{Model Order Reduction Summer School 2020} (MORSS2020), \'Ecole polytechnique f\'ed\'erale de Lausanne (EPFL), Lausanne, Switzerland. [\href{https://github.com/NQBH/miscellaneous/blob/master/ROMSOC/talk/MORSS2020/abstract/NQBH_abstract.pdf}{abstract}][\href{https://zenodo.org/record/4117506}{slide}]}
+
+\cvitem{Jun 26, 2019}{Hong Nguyen. ``\textit{Staggered {\small\&} well-balanced discretization of shallow water equations}''. PhD interview, Department of Mathematics, RWTH Aachen University, Aachen, Germany. [\href{https://github.com/NQBH/miscellaneous/blob/master/Master_of_Science/Master_Thesis/slide/NQBH_Master_Thesis_slide.pdf}{slide}]}
+
+%------------------------------------------------------------------------------%
+%       Miscellaneous
+%------------------------------------------------------------------------------%
+
+\section{Miscellaneous}
+
+\cvitem{Feb 22, 2021}{WIAS-Day2021 $\triangleright$ \href{https://github.com/NQBH/miscellaneous/blob/master/WIAS/WIAS-Day2021/nguyen_RG8/nguyen_RG8.pdf}{Hong Quan Ba Nguyen (Research Group 8)'s Research Profile}.}
+
+\cvitem{Nov 30, 2020}{\href{https://www.romsoc.eu/blog/}{ROMSOC Blog} $\triangleright$ Hong Nguyen. \href{https://www.romsoc.eu/optimal-shape-design-of-air-ducts/}{\textit{Optimal shape design of air ducts}} [\href{https://github.com/NQBH/miscellaneous/blob/master/ROMSOC/blog/optimal_shape_design_of_airducts/blog.pdf}{pdf}].}
+
+\cvitem{Jun 18, 2020}{\href{https://github.com/NQBH/miscellaneous/blob/master/recommendation_letter/Nguyen_PhD.pdf}{Prof. Luis Miguel Rodrigues's recognition of Master equivalence {\small\&} admission to doctoral studies} of \textsc{Nguyen} Quan Ba Hong. IRMAR, Rennes, France.}
+
+\cvitem{May 27, 2019}{\href{https://github.com/NQBH/miscellaneous/blob/master/recommendation_letter/Nguyen_Rodrigues.pdf}{Prof. Luis Miguel Rodrigues's recommendation letter} for \textsc{Nguyen} Quan Ba Hong. IRMAR, Rennes, France.}
+
+%------------------------------------------------------------------------------%
+%       Visits
+%------------------------------------------------------------------------------%
+
+\section{Visits}
+
+\cvitem{Apr 2021--now}{\href{https://mathtec.at/}{\textsc{Math${}_+$Tec} GmbH}, Vienna, Austria.}
+
+\cvitem{Apr 2021--now}{\href{https://www.tuwien.at/}{Vienna University of Technology\texttt{/}Technische Universit\"at Wien}, Vienna, Austria.}
+
+\cvitem{Apr 23, 2021}{\href{https://www.univie.ac.at/en/}{University of Vienna\texttt{/}Universit\"at Wien}, Vienna, Austria.}
+
+\cvitem{Mar 2020--now}{\href{https://www.hu-berlin.de/en/}{Humboldt-Universit\"at zu Berlin}, Berlin, Germany.}
+
+\cvitem{Jun 25--27, 2019}{\href{https://www.mathematik.rwth-aachen.de}{Department of Mathematics}, \href{https://www.rwth-aachen.de}{Rheinisch-Westf\"alische Technische Hochschule (RWTH) Aachen University}, Aachen, Germany.}
+
+\cvitem{Sep 2018--Jun 2019}{\href{https://math.univ-rennes1.fr/}{UFR Math\'ematiques}, \href{https://www.univ-rennes1.fr/}{Universit\'e de Rennes 1}, Rennes, Bretagne, France.}
+
+\cvitem{Sep 2018--Dec 2018}{\href{https://www.univ-rennes2.fr/}{Université Rennes 2 - UFR Sciences sociales}, Rennes, Bretagne, France.}
+
+\cvitem{Mar 2017}{\href{https://viasm.edu.vn/}{Vietnam Institute for Advanced Studies in Mathematics} (VIASM), Hanoi, Vietnam.}
+
+%------------------------------------------------------------------------------%
+%       Awards, Scholarships
+%------------------------------------------------------------------------------%
+
+\section{Awards {\small \&} Scholarships}
+
+\cvitem{Mar 2020--Aug 2021}{\href{https://ec.europa.eu/research/mariecurieactions/funded-projects/initial-training-networks_en}{Marie Sk\l odowska-Curie Actions (MSCA) PhD Fellowship}, \textit{Horizon 2020 - Innovative Training Network - European Industrial Doctorate Programs}, Grant Agreement number: 765374 - \href{https://www.romsoc.eu/}{Reduced Order Modelling, Simulation {\small\&} Optimization of Coupled Systems} (ROMSOC) [H2020-MSCA-ITN-2017-EID\texttt{/}ROMSOC\texttt{/}ESR11].}
+
+\cvitem{2018--2019}{\href{https://www.lebesgue.fr/content/bourses_master}{Lebesgue Master Scholarship} for \textit{Master 2} program within ENS Rennes program.}
+
+\cvitem{2017}{Scholarship of \href{http://viasm.edu.vn/}{\textit{Vietnam Institute for Advanced Studies in Mathematics}} (VIASM).}
+
+\cvitem{2016}{Special Prize $\Leftarrow$ First Prize in Algebra $+$ First Prize in Analysis, in \href{https://vms.org.vn/index.php/vi/hoat-dong/olympic-toan-hoc.html}{\textit{Vietnamese Mathematical Olympiad for College Students}} (VMC 2016).}
+
+\cvitem{2015}{Second Prize in Algebra, Second Prize in Analysis, in \href{https://vms.org.vn/index.php/vi/hoat-dong/olympic-toan-hoc.html}{\textit{Vietnamese Mathematical Olympiad for College Students}} (VMC 2015).}
+
+\cvitem{2012}{Gold Medal ranked \#2, in \textit{Vietnamese Apr 30th Mathematical Olympiad for Central {\small\&} Southern Vietnam}.}
+
+%------------------------------------------------------------------------------%
+%       Computer Skills
+%------------------------------------------------------------------------------%
+
+\section{Computer Skills}
+
+\cvitem{GitHub}{\href{https://github.com/NQBH}{GitHub\texttt{/}NQBH}\newline$\triangleright$ \href{https://github.com/ROMSOC}{GitHub\texttt{/}ROMSOC project}.}
+\cvitem{Basic}{R, Fortran, Fireshape, Firedrake, FEniCS, Python 3, \textsc{Star-CCM+}.}
+
+\cvitem{Intermediate}{git, C\texttt{/}C++, OpenFOAM.}
+
+\cvitem{Advanced}{UNIX\texttt{/}Linux [openSUSE, (K)Ubuntu], \TeX\texttt{/}\LaTeX, \textsc{Matlab}.}
+
+%------------------------------------------------------------------------------%
+%       Languages
+%------------------------------------------------------------------------------%
+
+\section{Languages}
+
+\cvitem{Vietnamese}{Mother tongue: \textit{Literature-oriented}}
+
+\cvitem{English}{A \textit{fluent speaker\texttt{/}reader} {\small\&} an \textit{advanced listener\texttt{/}writer}}
+
+%------------------------------------------------------------------------------%
+%       Referees
+%------------------------------------------------------------------------------%
+
+\section{Referees}
+
+\cvitemwithcomment{[5]}{\href{http://wias-berlin.de/people/hintermueller/}{Prof. Michael Hinterm\"uller}}{Primary PhD Supervisor}
+
+\cvitemwithcomment{[4]}{\href{http://seguin.perso.math.cnrs.fr/}{Prof. Nicolas Seguin}}{Master Supervisor}
+
+\cvitemwithcomment{[3]}{\href{https://scholar.google.com/citations?user=R0ryWlwAAAAJ}{Dr. Nguyen Anh Dao}}{Bachelor Supervisor}
+
+\cvitemwithcomment{[2]}{\href{https://scholar.google.com/citations?user=VU5-vAMAAAAJ}{Dr. Tan Trung Nguyen}}{Bachelor Teacher}
+
+\cvitemwithcomment{[1]}{\href{https://sites.google.com/site/khangdao92/home}{Dr. Manh Khang Dao}}{Bachelor Teacher}
+
+%------------------------------------------------------------------------------%
+%       Hobbies
+%------------------------------------------------------------------------------%
+
+\section{Hobbies}
+
+\cvlistdoubleitem{Psychology}{Philosophy}
+
+\cvlistdoubleitem{Literature}{Blogging}
+
+\cvlistitem{Arts (emotions carriers): movies, animes, mangas, (instrumental) musics, etc.\hfill$\square$}
+
+%------------------------------------------------------------------------------%
+
+\begin{flushright}
+    \texttt{\small Updated to Jul 2, 2021.}
+\end{flushright}
+
+\end{document}

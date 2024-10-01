@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.16)  1 OCT 2024 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.16)  1 OCT 2024 10:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -949,13 +949,13 @@ Package rerunfilecheck Info: File `NQBH_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 28E88AB21743567B551A77FA0BFA774D;2350.
  ) 
 Here is how much of TeX's memory you used:
- 16168 strings out of 473584
- 259365 string characters out of 5728334
+ 16165 strings out of 473584
+ 259316 string characters out of 5728334
  1959905 words of memory out of 5000000
- 38573 multiletter control sequences out of 15000+600000
- 654271 words of font info for 170 fonts, out of 8000000 for 9000
+ 38571 multiletter control sequences out of 15000+600000
+ 653952 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,13n,93p,1004b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,93p,1004b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/tex
@@ -971,14 +971,13 @@ ts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
 ublic/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
 msy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><
 /usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/public/lm/lmtti10.pfb></usr/local/texlive/2
-024/texmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2024/texmf
--dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on NQBH_CV.pdf (4 pages, 1887374 bytes).
+texlive/2024/texmf-dist/fonts/type1/public/lm/lmtto10.pfb></usr/local/texlive/2
+024/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on NQBH_CV.pdf (4 pages, 1883751 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
+ 348 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
  28 named destinations out of 1000 (max. 500000)
- 51390 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 50878 words of extra memory for PDF output out of 51595 (max. 10000000)
 

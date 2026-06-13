@@ -13,6 +13,20 @@ using namespace std;
 // I. COMPETITIVE PROGRAMMING STYLE
 // ---------------------------------------------------------
 
+/**
+ * @file fractional_conservation.cpp
+ * @brief Exact AZ-Style Fractional Identities for Covering-Based Rough Sets
+ * 
+ * Implements the mathematical formulas from Section 2:
+ * - Thm 2.2: Covering Lower Approximation Identity
+ * - Thm 2.3: Covering Upper Approximation Identity
+ * - Cor 2.2: Universal Boundary Uncertainty Law
+ * - Thm 2.4: Macroscopic Capacity Bounds (Lagrange Dispersion)
+ * - Thm 2.5: Parameterized Fractional Conservation Laws (alpha/beta)
+ * 
+ * Complexity: O(m * n / 64) via hardware bitsets + O(n^2) Lagrange Check
+ */
+
 const int MAXN = 2048; // maximum universe size
 const int MAXN_brute_force = 22; // maximum universe size for brute force algorithm
 const double eps = 1e-9; // float epsilon to prevent mapping errors in alpha_val/beta_val
@@ -159,7 +173,7 @@ void solve() {
    				if (intersect >= k_beta_val(sz, beta_val)) ++beta_val_card; // beta_val threshold
    			}
 
-   			brute_force_upper += weight * lower_card;
+   			brute_force_lower += weight * lower_card;
    			brute_force_upper += weight * upper_card;
    			brute_force_bound += weight * (upper_card - lower_card);
    			brute_force_alpha_val += weight * alpha_val_card;
@@ -196,6 +210,7 @@ int main() {
 }
 /*
 compilation on Terminal of Ubuntu:
-g++ -O2 -Wall NQBH_nonideal_covering_based_rough_set_identities.cpp -o NQBH_nonideal_covering_based_rough_set_identities
+g++ -O3 -Wall NQBH_nonideal_covering_based_rough_set_identities.cpp -o NQBH_nonideal_covering_based_rough_set_identities
 ./NQBH_nonideal_covering_based_rough_set_identities
+./NQBH_nonideal_covering_based_rough_set_identities < CP.inp > CP.out
 */

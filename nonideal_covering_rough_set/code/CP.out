@@ -1,0 +1,18 @@
+========================================================
+ POLYNOMIAL-TIME THEORETICAL EVALUATIONS O(m * n / 64)
+========================================================
+[Thm 2.2] Lower Approx : 2.416667
+[Thm 2.3] Upper Approx : 8.250000
+[Cor 2.2] Boundary     : 5.833333
+[Thm 2.4] Lagrange RHS : 2.416667 (LHS Diff: 0.000000)
+[Thm 2.5] Alpha-Lower  : 2.416667
+[Thm 2.5] Beta-Upper   : 7.250000
+
+========================================================
+ EXPONENTIAL BRUTE-FORCE VERIFICATION O(n * 2^n)
+========================================================
+[Thm 2.2] Lower Approx : 2.416667 (Err: 0.000000)
+[Thm 2.3] Upper Approx : 8.250000 (Err: 0.000000)
+[Cor 2.2] Boundary     : 5.833333 (Err: 0.000000)
+[Thm 2.5] Alpha-Lower  : 2.416667 (Err: 0.000000)
+[Thm 2.5] Beta-Upper   : 7.250000 (Err: 0.000000)
